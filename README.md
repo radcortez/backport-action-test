@@ -15,3 +15,4 @@ Try to push this to multiple branches
 Commit 1
 Commit 2
 
+Test committer name
