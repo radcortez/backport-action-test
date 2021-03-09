@@ -14,3 +14,6 @@ jobs:
         uses: radcortez/backport-action@main
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
+        env:
+          GIT_COMMITTER_NAME: ${{ env.GITHUB_ACTOR }}
+          GIT_COMMITTER_EMAIL: noreply@github.com
